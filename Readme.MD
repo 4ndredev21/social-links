@@ -23,10 +23,10 @@ Este é um projeto de site pessoal desenvolvido com **HTML**, **CSS** e **JavaSc
 ## 🖼️ Demonstração
 
 ![Dark Mode](./assets/darkModePreview.png)
-![Light Mode](./assets/lightModePreview.png)
+![Light Mode](./assets/)
 
 ## 🛠️ Como Utilizar
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/4ndreDev21/personal-website.git
+   git clone https://github.com/4ndreDev21/social-links.git
