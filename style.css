@@ -23,6 +23,7 @@ body {
   background: var(--bg-url) no-repeat top center/cover;
   color: var(--text-color);
   text-rendering: optimizeLegibility;
+  height: 100vh;
 }
 
 body * {
@@ -185,4 +186,14 @@ footer {
   align-items: center;
   justify-content: center;
   font-size: 14px;
+}
+
+/* Media queries uhul \o/ */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop-dark.jpg);
+  }
+  .light {
+      --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
