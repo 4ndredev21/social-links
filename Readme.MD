@@ -23,8 +23,8 @@ Este é um projeto de site pessoal desenvolvido com **HTML**, **CSS** e **JavaSc
 
 ## 🖼️ Demonstração
 
-![Dark Mode](./assets/dark-mode-preview.png)
-![Light Mode](./assets/light-mode-preview.png)
+![Dark Mode](./assets/darkModePreview.png)
+![Light Mode](./assets/lightModePreview.png)
 
 ## 🛠️ Como Utilizar
 
