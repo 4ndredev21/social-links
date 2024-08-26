@@ -1,12 +1,12 @@
 function toggleMode() {
   const body = document.body
-  body.classList.toggle("light")
   const image = document.querySelector("#profile img")
-  const setAlt = document.querySelector("#profile img")
+
+  body.classList.toggle("light")
 
   if (body.classList.contains("light")) {
     image.setAttribute("src", "./assets/perfil-light.png")
-    setAlt.setAttribute(
+    image.setAttribute(
       "alt",
       "Foto futura do André Luis Mendes um dos melhores programadores do mundo !!! estudou muito!!!!"
     )
@@ -18,3 +18,14 @@ function toggleMode() {
     )
   }
 }
+
+// Verifique o modo no carregamento inicial da página
+document.addEventListener("DOMContentLoaded", () => {
+  const body = document.body
+
+  // Se o modo light não estiver ativo, defina o modo dark como padrão
+  if (!body.classList.contains("light")) {
+    body.classList.remove("light")
+  }
+  toggleMode() // Força a verificar e aplicar o modo correto
+})
