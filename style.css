@@ -70,11 +70,11 @@ body * {
   transform: translateY(-50%);
   top: 50%;
   border: 1px solid var(--border2);
+  animation: slide-back 0.4s ease;
 }
 
 .light #switch button {
-  right: 0;
-  left: auto;
+  animation: slide-in 0.4s ease forwards;
 }
 
 #switch span {
@@ -194,6 +194,23 @@ footer {
     --bg-url: url(./assets/bg-desktop-dark.jpg);
   }
   .light {
-      --bg-url: url(./assets/bg-desktop-light.jpg);
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+/* animação de keyframes para suavizar */
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }to {
+    left: 0;
   }
 }
