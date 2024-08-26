@@ -1,6 +1,5 @@
 # 🌐 Personal Website - Dark/Light Mode Toggle
 
-![Project Preview](./assets/project-preview.png)
 
 ## Sobre o Projeto
 
