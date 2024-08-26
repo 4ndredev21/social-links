@@ -1,6 +1,6 @@
 # 🌐 Personal Website - Dark/Light Mode Toggle
 
-![Project Preview](https://4ndredev21.github.io/social-links/)
+🌐 [Personal Website - Dark/Light Mode Toggle](https://4ndredev21.github.io/social-links/)
 
 ## Sobre o Projeto
 
