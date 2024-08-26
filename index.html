@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="light">
+    <main id="container">
+      <section id="profile">
+        <img
+          src="./assets/perfil-dark.png"
+          alt="imagem de perfil do andré luis programador aos 36 anos de idade em seu primeiro projeto no link tree feito com html ,css e javascript"
+        />
+        <p>@4ndreDev21</p>
+      </section>
+      
+      <div id="switch" onclick="toggleMode()">
+        <button idaria-label="botão de toggle dark/light mode"></button>
+        <span></span>
+      </div>
+ 
+      <nav aria-label="Links Principais">
+        <ul>
+          <li><a href="#" target="_blank">Inscrever-se</a></li>
+          <li><a href="#" target="_blank">Baixe meu e-book</a></li>
+          <li><a href="#" target="_blank">Veja meu portfólio</a></li>
+          <li><a href="#" target="_blank">Conheça o Explorer</a></li>
+        </ul>
+      </nav>
+      <section id="social-links" aria-label="Redes Sociais">
+        <a href="#" target="_blank" aria-label="GitHub">
+          <ion-icon name="logo-github"></ion-icon
+        ></a>
+        <a href="#" target="_blank" aria-label="Instagram">
+          <ion-icon name="logo-instagram"></ion-icon
+        ></a>
+        <a href="#" target="_blank" aria-label="Youtube">
+          <ion-icon name="logo-youtube"></ion-icon
+        ></a>
+        <a href="#" target="_blank" aria-label="Linkedin">
+          <ion-icon name="logo-linkedin"></ion-icon
+        ></a>
+      </section>
+      <footer>
+        Feito com ♥ pela&nbsp;<a href="" target="_blank">Rocketseat</a>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
