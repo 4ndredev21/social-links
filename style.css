@@ -58,6 +58,10 @@ body * {
   margin: 4px auto;
 }
 
+#switch button:hover {
+  outline: 2px solid var(--border-color);
+}
+
 #switch button {
   border: 0;
   width: 32px;
